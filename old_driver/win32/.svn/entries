@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="24"
+   name=""
+   committed-date="2004-03-09T05:51:05.017576Z"
+   url="svn://svn.evillabs.net/libp5glove/trunk/win32"
+   last-author="jmcmullan"
+   kind="dir"
+   uuid="8b6f99d3-f086-0160-f163-15e20f128303"
+   revision="65"/>
+<entry
+   committed-rev="24"
+   name="hid.def"
+   text-time="2005-02-07T00:47:50.000000Z"
+   committed-date="2004-03-09T05:51:05.017576Z"
+   checksum="159e6f7f963c87eed95499bda9270b19"
+   last-author="jmcmullan"
+   kind="file"
+   prop-time="2005-02-07T00:47:48.000000Z"/>
+<entry
+   committed-rev="24"
+   name="glut32.dll"
+   text-time="2005-02-07T00:47:50.000000Z"
+   committed-date="2004-03-09T05:51:05.017576Z"
+   checksum="8ea55ba51f158b053db48e7a8f481f40"
+   last-author="jmcmullan"
+   kind="file"
+   prop-time="2005-02-07T00:47:50.000000Z"/>
+<entry
+   committed-rev="24"
+   name="libhid.a"
+   text-time="2005-02-07T00:47:50.000000Z"
+   committed-date="2004-03-09T05:51:05.017576Z"
+   checksum="264ff9dfa582cb50217db774bcbf6d22"
+   last-author="jmcmullan"
+   kind="file"
+   prop-time="2005-02-07T00:47:50.000000Z"/>
+<entry
+   committed-rev="24"
+   name="make_hacked_libhid.bat"
+   text-time="2005-02-07T00:47:50.000000Z"
+   committed-date="2004-03-09T05:51:05.017576Z"
+   checksum="ad7cae89b64846037bee2e8c79aa0ca0"
+   last-author="jmcmullan"
+   kind="file"
+   prop-time="2005-02-07T00:47:50.000000Z"/>
+<entry
+   committed-rev="24"
+   name="README"
+   text-time="2005-02-07T00:47:50.000000Z"
+   committed-date="2004-03-09T05:51:05.017576Z"
+   checksum="22b637994991dcb1025fe060aee7f659"
+   last-author="jmcmullan"
+   kind="file"
+   prop-time="2005-02-07T00:47:50.000000Z"/>
+</wc-entries>

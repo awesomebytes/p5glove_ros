@@ -1,0 +1,22 @@
+K 10
+svn:ignore
+V 166
+configure
+Makefile.in
+Makefile
+config.*
+mkinstalldirs
+depcomp
+ltmain.sh
+autom4te.cache
+INSTALL
+missing
+install-sh
+aclocal.m4
+libtool
+stamp-h1
+stamp-h
+stamp-h.in
+junk
+
+END

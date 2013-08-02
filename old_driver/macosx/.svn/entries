@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="37"
+   name=""
+   committed-date="2004-03-30T02:27:41.986364Z"
+   url="svn://svn.evillabs.net/libp5glove/trunk/macosx"
+   last-author="rossb"
+   kind="dir"
+   uuid="8b6f99d3-f086-0160-f163-15e20f128303"
+   revision="65"/>
+<entry
+   name="driver"
+   kind="dir"/>
+</wc-entries>

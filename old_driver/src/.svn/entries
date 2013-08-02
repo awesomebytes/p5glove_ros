@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="64"
+   name=""
+   committed-date="2004-10-18T10:15:01.335073Z"
+   url="svn://svn.evillabs.net/libp5glove/trunk/src"
+   last-author="timk"
+   kind="dir"
+   uuid="8b6f99d3-f086-0160-f163-15e20f128303"
+   prop-time="2005-02-07T00:47:47.000000Z"
+   revision="65"/>
+<entry
+   committed-rev="61"
+   name="usb_hid_win32.c"
+   text-time="2005-02-07T00:47:47.000000Z"
+   committed-date="2004-10-15T15:29:55.923744Z"
+   checksum="542ff1747cd61922526a28c73521d21e"
+   last-author="jmcmullan"
+   kind="file"
+   prop-time="2005-02-07T00:47:47.000000Z"/>
+<entry
+   committed-rev="63"
+   name="p5glove.c"
+   text-time="2005-02-07T00:47:47.000000Z"
+   committed-date="2004-10-17T06:18:02.316175Z"
+   checksum="b7df6bb4b0eb489f17360e2471aae7a5"
+   last-author="jmcmullan"
+   kind="file"
+   prop-time="2005-02-07T00:47:47.000000Z"/>
+<entry
+   committed-rev="61"
+   name="usb_hid.h"
+   text-time="2005-02-07T00:47:47.000000Z"
+   committed-date="2004-10-15T15:29:55.923744Z"
+   checksum="d45c01999c40245b2298d7a546db25d0"
+   last-author="jmcmullan"
+   kind="file"
+   prop-time="2005-02-07T00:47:47.000000Z"/>
+<entry
+   committed-rev="63"
+   name="p5glove.h"
+   text-time="2005-02-07T00:47:47.000000Z"
+   committed-date="2004-10-17T06:18:02.316175Z"
+   checksum="7ff3c09ddb78a0888e7a0294a835f5e5"
+   last-author="jmcmullan"
+   kind="file"
+   prop-time="2005-02-07T00:47:47.000000Z"/>
+<entry
+   committed-rev="61"
+   name="macosx_usb_hid.c"
+   text-time="2005-02-07T00:47:47.000000Z"
+   committed-date="2004-10-15T15:29:55.923744Z"
+   checksum="58789aaebde7fc9659a4b2d75d341662"
+   last-author="jmcmullan"
+   kind="file"
+   prop-time="2005-02-07T00:47:47.000000Z"/>
+<entry
+   committed-rev="64"
+   name="usb_hid_macosx.c"
+   text-time="2005-02-07T00:47:47.000000Z"
+   committed-date="2004-10-18T10:15:01.335073Z"
+   checksum="66332fe68080de7ae676371c8ade5c1d"
+   last-author="timk"
+   kind="file"
+   prop-time="2005-02-07T00:47:47.000000Z"/>
+<entry
+   committed-rev="61"
+   name="Makefile.am"
+   text-time="2005-02-07T00:47:47.000000Z"
+   committed-date="2004-10-15T15:29:55.923744Z"
+   checksum="47c6db354356c533938f37411f6c4701"
+   last-author="jmcmullan"
+   kind="file"
+   prop-time="2005-02-07T00:47:47.000000Z"/>
+<entry
+   committed-rev="38"
+   name="macosx_usb_hid.h"
+   text-time="2005-02-07T00:47:47.000000Z"
+   committed-date="2004-03-30T02:31:36.841456Z"
+   checksum="f4f4525a771c5a400c8c5ab6c828b8ea"
+   last-author="rossb"
+   kind="file"
+   prop-time="2005-02-07T00:47:47.000000Z"/>
+<entry
+   committed-rev="62"
+   name="usb_hid_libusb.c"
+   text-time="2005-02-07T00:47:47.000000Z"
+   committed-date="2004-10-15T16:08:04.383611Z"
+   checksum="23679ed8b6390e0ab3d754b9b1c695d1"
+   last-author="jmcmullan"
+   kind="file"
+   prop-time="2005-02-07T00:47:47.000000Z"/>
+</wc-entries>

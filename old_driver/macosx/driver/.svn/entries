@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="37"
+   name=""
+   committed-date="2004-03-30T02:27:41.986364Z"
+   url="svn://svn.evillabs.net/libp5glove/trunk/macosx/driver"
+   last-author="rossb"
+   kind="dir"
+   uuid="8b6f99d3-f086-0160-f163-15e20f128303"
+   revision="65"/>
+<entry
+   name="P5Driver.pkg"
+   kind="dir"/>
+<entry
+   committed-rev="37"
+   name="README.txt"
+   text-time="2005-02-07T00:47:48.000000Z"
+   committed-date="2004-03-30T02:27:41.986364Z"
+   checksum="6f39395ec0c2d36600de78aef3bf80b8"
+   last-author="rossb"
+   kind="file"
+   prop-time="2005-02-07T00:47:48.000000Z"/>
+</wc-entries>

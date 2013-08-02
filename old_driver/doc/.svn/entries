@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="23"
+   name=""
+   committed-date="2004-03-03T05:45:05.107234Z"
+   url="svn://svn.evillabs.net/libp5glove/trunk/doc"
+   last-author="jmcmullan"
+   kind="dir"
+   uuid="8b6f99d3-f086-0160-f163-15e20f128303"
+   revision="65"/>
+<entry
+   committed-rev="23"
+   name="usb-dump.txt"
+   text-time="2005-02-07T00:47:50.000000Z"
+   committed-date="2004-03-03T05:45:05.107234Z"
+   checksum="9be532ac14e2b10751191584a50fb0e8"
+   last-author="jmcmullan"
+   kind="file"
+   prop-time="2005-02-07T00:47:50.000000Z"/>
+</wc-entries>

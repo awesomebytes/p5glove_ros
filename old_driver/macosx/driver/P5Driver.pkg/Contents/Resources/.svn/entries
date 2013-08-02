@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="37"
+   name=""
+   committed-date="2004-03-30T02:27:41.986364Z"
+   url="svn://svn.evillabs.net/libp5glove/trunk/macosx/driver/P5Driver.pkg/Contents/Resources"
+   last-author="rossb"
+   kind="dir"
+   uuid="8b6f99d3-f086-0160-f163-15e20f128303"
+   revision="65"/>
+<entry
+   committed-rev="37"
+   name="P5Driver.pax.gz"
+   text-time="2005-02-07T00:47:48.000000Z"
+   committed-date="2004-03-30T02:27:41.986364Z"
+   checksum="d41d8cd98f00b204e9800998ecf8427e"
+   last-author="rossb"
+   kind="file"
+   prop-time="2005-02-07T00:47:48.000000Z"/>
+<entry
+   committed-rev="37"
+   name="P5Driver.info.gz"
+   text-time="2005-02-07T00:47:48.000000Z"
+   committed-date="2004-03-30T02:27:41.986364Z"
+   checksum="22273abb18886e32414349eb4a9f2ad0"
+   last-author="rossb"
+   kind="file"
+   prop-time="2005-02-07T00:47:48.000000Z"/>
+<entry
+   committed-rev="37"
+   name="P5Driver.sizes.gz"
+   text-time="2005-02-07T00:47:48.000000Z"
+   committed-date="2004-03-30T02:27:41.986364Z"
+   checksum="751c9f4b0de540ad1df25e8e29170470"
+   last-author="rossb"
+   kind="file"
+   prop-time="2005-02-07T00:47:48.000000Z"/>
+<entry
+   committed-rev="37"
+   name="Description.plist.gz"
+   text-time="2005-02-07T00:47:48.000000Z"
+   committed-date="2004-03-30T02:27:41.986364Z"
+   checksum="e6042ed7bfe530c0f29aa05a2fba9208"
+   last-author="rossb"
+   kind="file"
+   prop-time="2005-02-07T00:47:48.000000Z"/>
+<entry
+   committed-rev="37"
+   name="P5Driver.bom"
+   text-time="2005-02-07T00:47:48.000000Z"
+   committed-date="2004-03-30T02:27:41.986364Z"
+   checksum="d41d8cd98f00b204e9800998ecf8427e"
+   last-author="rossb"
+   kind="file"
+   prop-time="2005-02-07T00:47:48.000000Z"/>
+</wc-entries>

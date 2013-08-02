@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="13"
+   name=""
+   committed-date="2003-03-26T18:39:30.000000Z"
+   url="svn://svn.evillabs.net/libp5glove/trunk/macros"
+   last-author="gus"
+   kind="dir"
+   uuid="8b6f99d3-f086-0160-f163-15e20f128303"
+   revision="65"/>
+<entry
+   committed-rev="13"
+   name="opengl.m4"
+   text-time="2005-02-07T00:47:47.000000Z"
+   committed-date="2003-03-26T18:39:30.000000Z"
+   checksum="912c65f564725d0a13ae06c39b28c870"
+   last-author="gus"
+   kind="file"
+   prop-time="2005-02-07T00:47:47.000000Z"/>
+</wc-entries>

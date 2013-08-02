@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="65"
+   name=""
+   committed-date="2004-11-12T15:13:47.856578Z"
+   url="svn://svn.evillabs.net/libp5glove/trunk/demo"
+   last-author="jmcmullan"
+   kind="dir"
+   uuid="8b6f99d3-f086-0160-f163-15e20f128303"
+   prop-time="2005-02-07T00:47:47.000000Z"
+   revision="65"/>
+<entry
+   committed-rev="63"
+   name="p5hand.c"
+   text-time="2005-02-07T00:47:47.000000Z"
+   committed-date="2004-10-17T06:18:02.316175Z"
+   checksum="2ea32178b6e5f146d384c1a1091467b1"
+   last-author="jmcmullan"
+   kind="file"
+   prop-time="2005-02-07T00:47:47.000000Z"/>
+<entry
+   committed-rev="65"
+   name="Makefile.am"
+   text-time="2005-02-07T00:47:47.000000Z"
+   committed-date="2004-11-12T15:13:47.856578Z"
+   checksum="260e1550dd73237404a3587f81b3acd7"
+   last-author="jmcmullan"
+   kind="file"
+   prop-time="2005-02-07T00:47:47.000000Z"/>
+<entry
+   committed-rev="62"
+   name="p5dump.c"
+   text-time="2005-02-07T00:47:47.000000Z"
+   committed-date="2004-10-15T16:08:04.383611Z"
+   checksum="ff518303ac76afebfd2cbeeee04e6b22"
+   last-author="jmcmullan"
+   kind="file"
+   prop-time="2005-02-07T00:47:47.000000Z"/>
+</wc-entries>

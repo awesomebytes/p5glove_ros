@@ -1,0 +1,11 @@
+K 10
+svn:ignore
+V 47
+.deps
+.libs
+Makefile
+Makefile.in
+p5dump
+p5hand
+
+END

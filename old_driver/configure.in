@@ -1,0 +1,49 @@
+dnl Process this file with autoconf to produce a configure script.
+AC_INIT
+AM_INIT_AUTOMAKE(libp5glove,0.3)
+AM_CONFIG_HEADER(config.h)
+
+dnl Always pull in the macros/ directory in aclocal
+ACLOCAL="$ACLOCAL -I macros"
+AC_SUBST(ACLOCAL)
+
+
+dnl Checks for programs.
+AC_PROG_CC
+AM_PROG_LIBTOOL
+AC_PROG_INSTALL
+
+dnl Checks for libraries.
+
+dnl Check for X11
+AC_PATH_X
+AC_PATH_XTRA
+
+# in the future this doesnt work
+#dnl Check for GL libs
+#MDL_HAVE_OPENGL
+#if test "${have_glut}" != "yes"; then
+#	AC_MSG_ERROR([Can't find the -lglut library.])
+#fi
+
+dnl Replace `main' with a function in -lusb:
+AC_CHECK_LIB(usb, usb_open)
+
+AC_CHECK_LIB(usb, usb_interrupt_read, 
+	     [AC_DEFINE(HAVE_USB_INTERRUPT_READ,1,[libusb has usb_interrupt_read()])],
+	     [AC_MSG_WARN([You should really use libusb 0.1.7 or higher for usb_interrupt_read() support.])])
+
+dnl Checks for header files.
+
+dnl Checks for typedefs, structures, and compiler characteristics.
+AC_HEADER_TIME
+
+dnl Checks for library functions.
+AC_HEADER_STDC
+AC_CHECK_FUNCS(gettimeofday strerror)
+
+AC_OUTPUT([
+	Makefile
+	src/Makefile
+	demo/Makefile
+])

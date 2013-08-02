@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="65"
+   name=""
+   committed-date="2004-11-12T15:13:47.856578Z"
+   url="svn://svn.evillabs.net/libp5glove/trunk"
+   last-author="jmcmullan"
+   kind="dir"
+   uuid="8b6f99d3-f086-0160-f163-15e20f128303"
+   prop-time="2005-02-07T00:47:51.000000Z"
+   revision="65"/>
+<entry
+   committed-rev="24"
+   name="make-win32.bat"
+   text-time="2005-02-07T00:47:51.000000Z"
+   committed-date="2004-03-09T05:51:05.017576Z"
+   checksum="fc0e4f629b09468a8474fb491d8af474"
+   last-author="jmcmullan"
+   kind="file"
+   prop-time="2005-02-07T00:47:47.000000Z"/>
+<entry
+   committed-rev="36"
+   name="TODO.txt"
+   text-time="2005-02-07T00:47:51.000000Z"
+   committed-date="2004-03-29T04:52:50.438733Z"
+   checksum="a6ce9e86f64109071a7ae4f40061863a"
+   last-author="rossb"
+   kind="file"
+   prop-time="2005-02-07T00:47:47.000000Z"/>
+<entry
+   name="macros"
+   kind="dir"/>
+<entry
+   name="demo"
+   kind="dir"/>
+<entry
+   committed-rev="38"
+   name="AUTHORS"
+   text-time="2005-02-07T00:47:51.000000Z"
+   committed-date="2004-03-30T02:31:36.841456Z"
+   checksum="824de60bf2ff8da6a172d89579b37edf"
+   last-author="rossb"
+   kind="file"
+   prop-time="2005-02-07T00:47:47.000000Z"/>
+<entry
+   committed-rev="65"
+   name="configure.in"
+   text-time="2005-02-07T00:47:51.000000Z"
+   committed-date="2004-11-12T15:13:47.856578Z"
+   checksum="6a6b9c3deb067c380dc71a6184640faf"
+   last-author="jmcmullan"
+   kind="file"
+   prop-time="2005-02-07T00:47:47.000000Z"/>
+<entry
+   committed-rev="65"
+   name="ChangeLog"
+   text-time="2005-02-07T00:47:51.000000Z"
+   committed-date="2004-11-12T15:13:47.856578Z"
+   checksum="e1448d95ec93cdf3a0e1918e733b48e4"
+   last-author="jmcmullan"
+   kind="file"
+   prop-time="2005-02-07T00:47:48.000000Z"/>
+<entry
+   name="src"
+   kind="dir"/>
+<entry
+   name="macosx"
+   kind="dir"/>
+<entry
+   committed-rev="22"
+   name="README"
+   text-time="2005-02-07T00:47:51.000000Z"
+   committed-date="2004-03-03T03:02:10.791017Z"
+   checksum="c4691c58dc98b27146a744bde181ed6a"
+   last-author="jmcmullan"
+   kind="file"
+   prop-time="2005-02-07T00:47:48.000000Z"/>
+<entry
+   committed-rev="13"
+   name="linux-2.4.patch"
+   text-time="2005-02-07T00:47:51.000000Z"
+   committed-date="2003-03-26T18:39:30.000000Z"
+   checksum="987fc24a6e921559dbbcefa2ba87a1ee"
+   last-author="gus"
+   kind="file"
+   prop-time="2005-02-07T00:47:48.000000Z"/>
+<entry
+   name="win32"
+   kind="dir"/>
+<entry
+   name="doc"
+   kind="dir"/>
+<entry
+   committed-rev="13"
+   name="COPYING"
+   text-time="2005-02-07T00:47:51.000000Z"
+   committed-date="2003-03-26T18:39:30.000000Z"
+   checksum="d8045f3b8f929c1cb29a1e3fd737b499"
+   last-author="gus"
+   kind="file"
+   prop-time="2005-02-07T00:47:50.000000Z"/>
+<entry
+   committed-rev="13"
+   name="Makefile.am"
+   text-time="2005-02-07T00:47:51.000000Z"
+   committed-date="2003-03-26T18:39:30.000000Z"
+   checksum="2af415593031682ae52d753c5abff676"
+   last-author="gus"
+   kind="file"
+   prop-time="2005-02-07T00:47:50.000000Z"/>
+<entry
+   committed-rev="65"
+   name="autogen.sh"
+   text-time="2005-02-07T00:47:51.000000Z"
+   committed-date="2004-11-12T15:13:47.856578Z"
+   checksum="47c98e3f828cc7cea7ce2903986a7e22"
+   last-author="jmcmullan"
+   kind="file"
+   prop-time="2005-02-07T00:47:50.000000Z"/>
+<entry
+   committed-rev="24"
+   name="README-win32.txt"
+   text-time="2005-02-07T00:47:51.000000Z"
+   committed-date="2004-03-09T05:51:05.017576Z"
+   checksum="8ed45881816c5f194a39cedf0f9f2203"
+   last-author="jmcmullan"
+   kind="file"
+   prop-time="2005-02-07T00:47:50.000000Z"/>
+<entry
+   committed-rev="13"
+   name="NEWS"
+   text-time="2005-02-07T00:47:51.000000Z"
+   committed-date="2003-03-26T18:39:30.000000Z"
+   checksum="13f1e8bca82143b5f0293ff6f9993818"
+   last-author="gus"
+   kind="file"
+   prop-time="2005-02-07T00:47:50.000000Z"/>
+</wc-entries>
