@@ -1,17 +1,16 @@
 #include <ros/ros.h>
+#include <ros/console.h>
 #include <p5glove_ros/GloveData.h>
 
-#include <stdio.h>
-#include <errno.h>
-#include <math.h>
 #include <p5glove_ros/p5glove.h>
+#include <errno.h>
 
 int main(int argc, char **argv)
 {
   P5Glove glove;
   glove=p5glove_open(0);
   if (glove == NULL) {
-    fprintf(stderr, "%s: Can't open glove interface\n", argv[0]);
+    ROS_FATAL("%s: Can't open glove interface\n", argv[0]);
     return 1;
   }
 
@@ -41,23 +40,36 @@ int main(int argc, char **argv)
     msg.buttonA = (buttons & P5GLOVE_BUTTON_A) ? 1 : 0;
     msg.buttonB = (buttons & P5GLOVE_BUTTON_B) ? 1 : 0;
     msg.buttonC = (buttons & P5GLOVE_BUTTON_C) ? 1 : 0;
+    ROS_DEBUG_STREAM("ButtonA: " << msg.buttonA
+                  << "ButtonB: " << msg.buttonB
+                  << "ButtonC: " << msg.buttonC);
 
     for(int i=0; i < 5; ++i)
     {
       p5glove_get_finger(glove,i,&clench);
       msg.fingers.push_back(clench);
+      ROS_DEBUG_STREAM("Finger #" << i << " :" << clench);
     }
 
     p5glove_get_position(glove, pos);
     msg.pose.position.x = pos[0];
     msg.pose.position.y = pos[1];
     msg.pose.position.z = pos[2];
+    ROS_DEBUG_STREAM("Position:("
+                     << pos[0] << ","
+                     << pos[1] << ","
+                     << pos[2] << ")");
 
     p5glove_get_rotation(glove, &angle, axis);
     msg.pose.orientation.x = axis[0];
     msg.pose.orientation.y = axis[1];
     msg.pose.orientation.z = axis[2];
     msg.pose.orientation.w = angle;
+    ROS_DEBUG_STREAM("Orientation:("
+                     << axis[0] << ","
+                     << axis[1] << ","
+                     << axis[2] << ","
+                     << angle << ")");
 
     msg.header.stamp = ros::Time::now();
     pub.publish(msg);
