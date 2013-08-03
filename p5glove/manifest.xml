@@ -1,0 +1,17 @@
+<package>
+  <description brief="p5glove">
+
+     p5glove
+
+  </description>
+  <author>Bence Magyar</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/p5glove</url>
+  <depend package="roscpp"/>
+  <depend package="geometry_msgs"/>
+
+  <rosdep name="libusb"/>
+</package>
+
+
