@@ -23,10 +23,10 @@
 #include <errno.h>
 #include <usb.h>
 
-#include <p5glove/config.h>
+#include <p5glove_ros/config.h>
 
 #define USBHID_struct usb_dev_handle
-#include <p5glove/usb_hid.h>
+#include <p5glove_ros/usb_hid.h>
 
 static int timeout = 1000;
 

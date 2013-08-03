@@ -1,13 +1,13 @@
 <package>
-  <description brief="p5glove">
+  <description brief="p5glove_ros">
 
-     p5glove
+     p5glove_ros
 
   </description>
   <author>Bence Magyar</author>
   <license>BSD</license>
   <review status="unreviewed" notes=""/>
-  <url>http://ros.org/wiki/p5glove</url>
+  <url>http://ros.org/wiki/p5glove_ros</url>
   <depend package="roscpp"/>
   <depend package="geometry_msgs"/>
 

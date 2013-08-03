@@ -21,7 +21,7 @@ rosbuild_genmsg()
 #uncomment if you have defined services
 #rosbuild_gensrv()
 
-rosbuild_add_executable(p5glove_node src/nodes/p5dump.c	
+rosbuild_add_executable(p5glove_node src/nodes/p5glove_node.cpp	
 				     src/p5glove.c
 				     src/usb_hid_libusb.c)
 target_link_libraries(p5glove_node usb m)

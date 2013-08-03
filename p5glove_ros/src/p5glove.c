@@ -34,9 +34,9 @@
 #include <string.h> /* for memcpy */
 #include <math.h>
 
-#include <p5glove/usb_hid.h>
+#include <p5glove_ros/usb_hid.h>
 #include <errno.h>
-#include <p5glove/p5glove.h>
+#include <p5glove_ros/p5glove.h>
 
 #define DEBUG
 #ifdef DEBUG
