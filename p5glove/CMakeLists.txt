@@ -24,7 +24,7 @@ rosbuild_genmsg()
 rosbuild_add_executable(p5glove_node src/nodes/p5dump.c	
 				     src/p5glove.c
 				     src/usb_hid_libusb.c)
-target_link_libraries(p5glove_node usb-1.0)
+target_link_libraries(p5glove_node usb m)
 
 #common commands for building c++ executables and libraries
 #rosbuild_add_library(${PROJECT_NAME} src/example.cpp)
