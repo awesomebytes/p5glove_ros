@@ -21,10 +21,13 @@ rosbuild_genmsg()
 #uncomment if you have defined services
 #rosbuild_gensrv()
 
+
 rosbuild_add_executable(p5glove_node src/nodes/p5glove_node.cpp	
 				     src/p5glove.c
 				     src/usb_hid_libusb.c)
 target_link_libraries(p5glove_node usb m)
+# PAL flags make this not compile because of this
+rosbuild_remove_compile_flags(p5glove_node -std=c++0x)
 
 #common commands for building c++ executables and libraries
 #rosbuild_add_library(${PROJECT_NAME} src/example.cpp)
