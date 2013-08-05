@@ -28,6 +28,7 @@ rosbuild_add_executable(p5glove_node src/nodes/p5glove_node.cpp
 target_link_libraries(p5glove_node usb m)
 # PAL flags make this not compile because of this
 rosbuild_remove_compile_flags(p5glove_node -std=c++0x)
+rosbuild_remove_compile_flags(p5glove_node -Werror=pointer-sign -Werror=format -Werror=format-extra-args)
 
 #common commands for building c++ executables and libraries
 #rosbuild_add_library(${PROJECT_NAME} src/example.cpp)

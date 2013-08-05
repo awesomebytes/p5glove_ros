@@ -65,7 +65,7 @@ USBHID OpenUSBHID( int index, int vendorId, int productId, int versionNumber, in
 
 			err=usb_claim_interface(usb,1);
 			if (err < 0) {
-				fprintf(stderr,"Can't claim P5 glove interface: %s\n",strerror(errno));
+//				fprintf(stderr,"Can't claim P5 glove interface: %s\n",strerror(errno));
 				usb_close(usb);
 				return NULL;
 			}

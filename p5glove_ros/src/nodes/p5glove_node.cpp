@@ -16,9 +16,9 @@ int main(int argc, char **argv)
 
   ros::init(argc, argv, "p5glove_node");
   ros::NodeHandle nh;
-  ros::Publisher pub = nh.advertise<p5glove_ros::GloveData>("data", 100);
+  ros::Publisher pub = nh.advertise<p5glove_ros::GloveData>("glove_data", 100);
 
-  p5glove_ros::GloveData msg;
+
 
   // variables used for low level data acquisition
   uint32_t buttons;
@@ -28,12 +28,13 @@ int main(int argc, char **argv)
 
   while(ros::ok())
   {
+    p5glove_ros::GloveData msg;
     const int err=p5glove_sample(glove, -1);
     if (err < 0 && errno == EAGAIN)
       continue;
     if (err < 0) {
-      ROS_FATAL("Glove Failure");
-      break;
+      ROS_ERROR("Glove Failure, detector not finding it, stopped publishing data.");
+      continue;
     }
 
     p5glove_get_buttons(glove,&buttons);
